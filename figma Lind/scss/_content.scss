@@ -1,0 +1,333 @@
+.content {
+    background-color: #181818;
+
+    .container {
+        width: 985px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        @include media(900px){
+            width: 780px;
+        }
+        @include media(800px){
+            width: 670px;
+        }
+        @include media(720px){
+            width: 550px;
+        }
+
+        .title {
+            width: 225px;
+            @include font(400, 52, 1.2);
+            color: $brend-color;
+            padding-top: 60px;
+            padding-bottom: 15px;
+            margin: 0 auto;
+        }
+
+        .text {
+            width: 571px;
+            @include font(400, 20, 1.5);
+            color: $brend-color;
+            padding-bottom: 60px;
+            text-align: center;
+            margin: 0 auto;
+            @include media(720px){
+                width: 290px;
+            }
+        }
+
+        .card-wrp {
+            width: 985px;
+            display: flex;
+            gap: 33px;
+            padding-bottom: 150px;
+            margin: 0 auto;
+            @include media(1060px){
+                width: 900px;
+               display: flex;
+               align-items: center;
+               justify-content: space-between;
+                padding-bottom: 120px;
+            }
+            @include media(980px){
+                width: 750px;
+               display: flex;
+               align-items: center;
+               justify-content: space-between;
+                padding-bottom: 70px;
+                gap: 25px;
+            }
+            @include media(900px){
+                width: 630px;
+               display: flex;
+               align-items: center;
+               justify-content: space-between;
+                padding-bottom: 40px;
+                gap: 20px;
+            }
+            @include media(900px){
+                width: 450px;
+               display: flex;
+               flex-direction: column;
+               align-items: center;
+                padding-bottom: 40px;
+                
+            }
+            .card1 {
+                width: 476px;
+                background-color: #FFFFFF;
+                border: 1px solid #D3D3D3;
+                border-radius: 10px;
+                @include media(1060px){
+                  width: 430px;
+                }
+                @include media(980px){
+                    width: 370px;
+                  }
+                  @include media(900px){
+                    width: 300px;
+                  }
+                  @include media(720px){
+                    width: 350px;
+                    margin-bottom: 33px;
+                  }
+                .card__title1 {
+                    width: 50px;
+                    @include font(500, 20, 1.5);
+                    color: #000;
+                    margin: 0 auto;
+                    padding: 50px 0 20px;
+                    @include media(980px){
+                        padding: 15px 0 20px;
+                    }
+                    @include media(900px){
+                        padding: 12px 0 15px;
+                    }
+                    @include media(720px){
+                        padding: 50px 0 20px;
+                    }
+                }
+
+                .card__text1 {
+                    width: 268px;
+                    @include font(400, 16, 1.5);
+                    text-align: center;
+                    padding: 10px;
+                    margin: 0 auto;
+                  padding-bottom: 57px;
+                  @include media(980px){
+                    padding: 10px 10px 30px;
+                }
+                @include media(900px){
+                    padding: 8px 7px 20px;
+                }
+                @include media(720px){
+                    padding: 10px;
+                    margin-bottom: 67px;
+                }
+                }
+               .card-btn1{
+                display: flex;
+                justify-content: center;
+                width: 157px;
+                padding: 10px 36px;
+                @include font(500, 17, 1.5);
+                background-color: #4452FE;
+                color: #FFFFFF;
+                 margin: 0 auto 57px;
+                 @include media(1060px){
+                 width: 140px;
+                 padding: 8px 27px;
+                }
+                @include media(980px){
+                    width: 100px;
+                    padding: 8px 15px;
+                   }
+                   @include media(900px){
+                    width: 80px;
+                    padding: 8px 7px;
+                   }
+                   @include media(720px){
+                    width: 150px;
+                    padding: 10px 40px;
+                    margin-bottom: 57px;
+                   }
+                 &:hover{
+                    background-color: #85f529; 
+                    color: #000;
+                    cursor: pointer;
+                    transition: all 0.3s ease;
+                 }
+               } 
+.card__img1{
+    width: 312px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 2px;
+     border: 4px solid #000;
+     @include media(1060px){
+        width: 270px;
+     }
+     @include media(980px){
+        width: 230px;
+     }
+     @include media(900px){
+        width: 200px;
+     }
+     @include media(720px){
+        width: 290px;
+     }
+}
+.border{
+    border: 4px solid #9FA2A5;
+    width: 405px;
+    margin: 0 auto 50px;
+    @include media(1100px){
+        width: 350px;
+        margin: 0 auto 35px;
+    }
+    @include media(980px){
+        width: 300px;
+        margin: 0 auto 25px;
+    }
+    @include media(900px){
+        width: 130px;
+        margin: 0 auto 15px;
+    }
+    @include media(720px){
+        width: 330px;
+        margin: 0 auto 40px;
+    }
+}
+            }
+            .card2 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 476px;
+                background-color: #FFFFFF;
+                border: 1px solid #D3D3D3;
+                border-radius: 10px;
+                @include media(1060px){
+                    width: 430px;
+                }
+                @include media(980px){
+                    width: 370px;
+                }
+                @include media(900px){
+                    width: 300px;
+                  }
+                  @include media(720px){
+                    width: 350px;
+                  }
+                .card__title2 {
+                    width: 202px;
+                    @include font(500, 20, 1.5);
+                    color: #000;
+                    margin: 0 auto;
+                    padding: 50px 0 20px;
+                    @include media(980px){
+                        padding: 15px 0 20px;
+                    }
+                    @include media(900px){
+                        padding: 12px 0 15px;
+                    }
+                    @include media(720px){
+                        width: 119px;
+                        padding: 10px ;
+                        margin: 50px 0 20px;
+                    }
+                   
+                }
+
+                .card__text2 {
+                    width: 268px;
+                    @include font(400, 16, 1.5);
+                    text-align: center;
+                    padding: 10px;
+                    margin: 0 auto;
+                  padding-bottom: 30px;
+                  @include media(980px){
+                    padding: 10px 10px 30px;
+                }
+                @include media(900px){
+                    padding: 8px 7px 20px;
+                }
+                @include media(720px){
+                    width: 288px;
+                    padding: 10px ;
+                    margin-bottom: 40px;
+                }
+                }
+               .card-btn2{
+                display: flex;
+                justify-content: center;
+                width: 190px;
+                padding: 10px 36px;
+                @include font(500, 17, 1.5);
+                background-color: #4452FE;
+                color: #FFFFFF;
+                 margin: 0 auto 30px;
+                 @include media(1060px){
+                    width: 140px;
+                    padding: 8px 20px;
+                   }
+                   @include media(980px){
+                    width: 110px;
+                    padding: 8px 5px;
+                   }
+                   @include media(900px){
+                    width: 110px;
+                    padding: 8px 3px;
+                   }
+                   @include media(720px){
+                    width: 190px;
+                    padding: 13px 46px;
+                   }
+                 &:hover{
+                    background-color: #85f529; 
+                    color: #000;
+                    cursor: pointer;
+                    transition: all 0.3s ease;
+                 }
+               } 
+.card__img2{
+    width: 379px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 40px;
+     border-radius: 14px;
+     @include media(1060px){
+        width: 300px;
+       }
+       @include media(980px){
+        width: 230px;
+        margin-bottom: 30px;
+     }
+     @include media(900px){
+        width: 230px;
+        margin-bottom: 10px;
+     }
+     img{
+        width: 379px;
+        @include media(980px){
+            width: 280px;
+         }
+         @include media(900px){
+            width: 230px;
+         }
+         @include media(720px){
+            width: 280px;
+            margin-bottom: 40px;
+         }
+     }
+
+}
+            }
+        }
+    }
+}

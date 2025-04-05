@@ -1,0 +1,208 @@
+.gallery {
+    background-color: #181818;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .container {
+        width: 100%;
+        max-width: 1087px; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 50px 0;
+        .title{
+width: 173px;
+@include font(400, 52, 1.2);
+color: $brend-color;
+padding: 10px;
+@include media(1150px){
+    @include font(350, 45, 1.2);
+    width: 140px;
+}
+@include media(720px){
+    @include font(400, 52, 1.2);
+    width: 175px;
+    padding: 10px;
+    margin: 50px 0 10px;
+}
+
+        }
+        .text{
+            width: 571px;
+            @include font(400, 20, 1.5);
+            color:$brend-color;
+            text-align: center;
+        padding: 10px;
+        margin-bottom: 44px;
+        @include media(720px){
+            width: 385px;
+            padding: 10px;
+            margin-bottom: 55px;
+        }
+        }
+        .img-wrp1{
+            display: flex;
+            align-items: center;
+            width: 999px;
+            gap: 33px;
+            margin-bottom: 44px;
+            @include media(1150px){
+                width: 855px;
+                gap: 25px;
+                margin-bottom: 30px;
+            }
+            @include media(980px){
+                width: 700px;
+                gap: 20px;
+                margin-bottom: 20px;
+            }
+           
+            @include media(900px){
+                width: 600px;
+                gap: 15px;
+                margin-bottom: 20px;
+            }
+            @include media(740px){
+                width: 485px;
+                gap: 15px;
+                margin-bottom: 20px;
+            }
+            @include media(720px){
+                display: flex;
+                flex-direction: column;
+                width: 400px;  
+                margin-bottom: 50px;
+            }
+            img{
+                width: 225px;
+                border-radius: 12px;
+                @include media(1150px){
+                    width: 195px;
+                }
+                @include media(980px){
+                    width: 160px;
+                }
+                @include media(900px){
+                    width: 138px;
+                }
+                @include media(740px){
+                    width: 110px;
+                }
+                @include media(720px){
+                    width: 320px;
+                    margin-bottom: 33px;
+                }
+            }
+        }
+        .img-wrp2{
+            width: 1087px;
+            display: flex;
+            align-items: center;
+            gap: 33px;
+            margin-bottom: 44px;
+            @include media(1150px){
+                width: 945px;
+                gap: 25px;
+                margin-bottom: 35px;
+            }
+            @include media(980px){
+                width: 785px;
+                gap: 20px;
+                margin-bottom: 20px;
+            }
+            @include media(900px){
+                width: 710px;
+                gap: 15px;
+                margin-bottom: 20px;
+            }
+            @include media(740px){
+                width: 580px;
+                gap: 15px;
+                margin-bottom: 20px;
+            }
+            @include media(720px){
+               
+                display: none;
+            }
+           img{
+            width: 395px;
+            border-radius: 12px;
+            @include media(1150px){
+                width: 350px;
+            }
+            @include media(980px){
+                width: 270px;
+            }
+            @include media(980px){
+                width: 245px;
+            }
+            @include media(740px){
+                width: 200px;
+            }
+            &:nth-child(2){
+                width: 225px;
+                @include media(1150px){
+                    width: 185px;
+                }
+                @include media(980px){
+                    width: 155px;
+                }
+                @include media(900px){
+                    width: 140px;
+                }
+                @include media(740px){
+                    width: 110px;
+                }
+            }
+            &:nth-child(3){
+                width: 401px;
+                @include media(1150px){
+                    width: 360px;
+                }
+                @include media(980px){
+                    width: 320px;
+                }
+                @include media(900px){
+                    width: 290px;
+                }
+                @include media(740px){
+                    width: 240px;
+                }
+            }
+           }
+        }
+        .gallery__btn{
+            width: 159px;
+            padding: 10px 30px;
+            border: 1px solid #FFFFFF;
+            @include font(500, 17, 1.5);
+            background-color: #181818;
+            color: $brend-color;
+            cursor: pointer;
+            @include media(1150px){
+                width: 140px;
+                @include font(400, 13, 1.3)
+            }
+            @include media(900px){
+                width: 120px;
+                padding: 10px 20px;
+                @include font(400, 13, 1.3)
+            }
+            @include media(720px){
+                width: 160px;
+                padding: 10px 30px;
+                @include font(400, 13, 1.3)
+            }
+            &:hover{
+                background-color: greenyellow;
+                color: #181818;
+                border-radius: 6px;
+                border: none;
+                transition: all 0.3s ease;
+            }
+        }
+    }
+}
