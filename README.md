@@ -1,11 +1,12 @@
-# 👋 Salom, men @umid-web
+# 👋 Hello, I’m @umid-web
 
-- 👀 Meni qiziqtiradigan yo‘nalishlar: Frontend dasturlash, web dizayn, UI/UX
-- 🌱 Hozirda o‘rganayotganlarim:  HTML, CSS, JavaScript,   React Js,
-- 💞️ Hamkorlik qilmoqchi bo‘lgan loyihalar: O‘quv loyihalari, portfoliolar, open-source frontend ishlanmalar
-- 📫 Menga qanday bog‘lanish mumkin: umidjontojimatov742@gmail.com
-- 😄 Murojaat shakli: U / Uni (masalan, Umidjon)
-- ⚡ Qiziqarli fakt: Men har kuni yangi kod yozishga harakat qilaman 🚀
+👀 My interests: Frontend development, web design, UI/UX improvement, responsive interfaces  
+🌱 Currently learning: HTML, CSS, SCSS, JavaScript, React Js, TypeScript, Next.js  
+💞️ Looking to collaborate on: Frontend projects, modern web applications, UI/UX improvements, open-source contributions  
+📫 How to reach me: umidjontojimatov742@gmail.com  
+😄 Pronouns: He / Him (for example, Umidjon)  
+⚡ Fun fact: I try to write new code every day 🚀
+
 
 
 <!---
